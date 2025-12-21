@@ -3,7 +3,7 @@
 <h2>Quantum Devices Research:</h2>
 
 - <b>Paper</b>
-  - [Praciting DS & Algos in Python](https://github.com/joshmadakor1/Algorithms-Practice)
+  - [Praciting DS & Algos in Python](https://github.com/keya-joy19/projects/blob/7aa058cdbbc3e0513ade1220d316d66f1b22be68/NC%20Report%20KJKM.pdf)
   - Citation
 - <b>Neuromorphic Computing Paper</b>
   - [Image Analysis Middleware](https://github.com/joshmadakor1/4chan-Image-Analysis-Middleware-C964)
