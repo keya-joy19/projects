@@ -32,8 +32,7 @@
   - [MOSFET Simulation](https://github.com/joshmadakor1/Algorithms-Practice)
 - <b>Creative Projects</b>
   - [Climbing and Physics](https://github.com/joshmadakor1/Algorithms-Practice)
-  - [Women in Art History](https://github.com/joshmadakor1/Algorithms-Practice)
-  - [Visual Analysis of Bernini's David Sculpture](https://github.com/joshmadakor1/Algorithms-Practice)
+  - [Women in Art History](https://github.com/keya-joy19/projects/blob/main/Women%20in%20Art%20History.pdf)
   - [Analysis of Wanted Posters](https://github.com/keya-joy19/projects/blob/main/Wanted%20Posters%20Genre%20Analysis.pdf)
 
 <!--
