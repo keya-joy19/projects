@@ -3,12 +3,14 @@
 <h2>Quantum Devices Research:</h2>
 
 - <b>Publications</b>
-  - [View](https://github.com/keya-joy19/projects/blob/7aa058cdbbc3e0513ade1220d316d66f1b22be68/NC%20Report%20KJKM.pdf)
-  - Citation
+  - [Bilayer Graphene Intercalation for Artifical Synapses](https://github.com/keya-joy19/projects/blob/7aa058cdbbc3e0513ade1220d316d66f1b22be68/NC%20Report%20KJKM.pdf)
+    - Y. He, S. Cao, S. Hashemkhani, Y. Liu, D. Vaz, K. Joy, N. Youngblood, R. Kubendran, M. P. Anantram, F. Xiong,
+“Artificial synapse with tunable dynamic range for neuromorphic computing with ion intercalated bilayer graphene,”
+<i>npj Unconv. Comput.</i> vol. 2, no. 28, Dec. 2025, doi: 10.1038/s44335-025-00042-4.
 - <b>Neuromorphic Computing Paper</b>
   - [View](https://github.com/keya-joy19/projects/blob/main/NC%20Report%20KJKM.pdf)
 - <b>DFT Calculations Paper</b>
-  - [View](https://github.com/joshmadakor1/Sentinel-Lab)
+  - [View](https://github.com/keya-joy19/projects/blob/main/DFT%20Calculations.pdf)
 
 <h2>Software Development Projects</h2>
 
