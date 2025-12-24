@@ -27,7 +27,7 @@
 <h2>Additional Projects</h2>
 
 - <b>LTspice</b>
-  - [Audio Mixer Circuit](https://github.com/joshmadakor1/Algorithms-Practice)
+  - [Audio Mixer Circuit](https://github.com/keya-joy19/projects/tree/main/Audio%20Mixer%20Circuit)
 - <b>Sentaurus</b>
   - [MOSFET Simulation](https://github.com/joshmadakor1/Algorithms-Practice)
 - <b>Creative Projects</b>
