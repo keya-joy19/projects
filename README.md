@@ -14,24 +14,24 @@
 <h2>Software Development Projects</h2>
 
 - <b>SystemVerilog</b>
-  - [5-stage pipelined microprocessor](https://github.com/joshmadakor1/Algorithms-Practice)
-  - [John Conway's Game of Life on an FPGA](https://github.com/joshmadakor1/Algorithms-Practice)
+  - [5-stage pipelined microprocessor](https://github.com/keya-joy19/projects/tree/main/microprocessor)
+  - [John Conway's Game of Life on an FPGA](https://github.com/keya-joy19/projects/tree/main/Game%20of%20Life) 
 - <b>Python</b>
-  - [Signal Processing](https://github.com/joshmadakor1/Algorithms-Practice)
-  - [Stochastic Simulation](https://github.com/joshmadakor1/Algorithms-Practice)
-  - [Linear Programming](https://github.com/joshmadakor1/Algorithms-Practice)
+  - [Signal Processing](https://github.com/keya-joy19/projects/tree/main/Signal%20Processing)
+  - [Stochastic Simulation](https://github.com/keya-joy19/projects/tree/main/Game%20of%20Life)
+  - [Linear Programming](https://github.com/keya-joy19/projects/tree/main/Game%20of%20Life)
 - <b>Java</b>
-  - [Huffman Node](https://github.com/joshmadakor1/Algorithms-Practice)
-  - [Insert](https://github.com/joshmadakor1/Algorithms-Practice)
+  - [Huffman Node](https://github.com/keya-joy19/projects/tree/main/Game%20of%20Life)
+  - [Insert](https://github.com/keya-joy19/projects/tree/main/Game%20of%20Life)
 
 <h2>Additional Projects</h2>
 
 - <b>LTspice</b>
   - [Audio Mixer Circuit](https://github.com/keya-joy19/projects/tree/main/Audio%20Mixer%20Circuit)
 - <b>Sentaurus</b>
-  - [MOSFET Simulation](https://github.com/joshmadakor1/Algorithms-Practice)
+  - [MOSFET Simulation](https://github.com/keya-joy19/projects/tree/main/Game%20of%20Life)
 - <b>Creative Projects</b>
-  - [Climbing and Physics](https://github.com/joshmadakor1/Algorithms-Practice)
+  - [Climbing and Physics](https://github.com/keya-joy19/projects/tree/main/Game%20of%20Life)
   - [Women in Art History](https://github.com/keya-joy19/projects/blob/main/Women%20in%20Art%20History.pdf)
   - [Analysis of Wanted Posters](https://github.com/keya-joy19/projects/blob/main/Wanted%20Posters%20Genre%20Analysis.pdf)
 
