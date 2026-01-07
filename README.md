@@ -31,7 +31,7 @@
 - <b>Sentaurus</b>
   - [MOSFET Simulation](https://github.com/keya-joy19/projects/tree/main/Game%20of%20Life)
 - <b>Creative Projects</b>
-  - [Climbing and Physics](https://github.com/keya-joy19/projects/tree/main/Game%20of%20Life)
+  - [Climbing and Physics (External)](https://youtu.be/JbbV9URgkHI)
   - [Women in Art History](https://github.com/keya-joy19/projects/blob/main/Women%20in%20Art%20History.pdf)
   - [Analysis of Wanted Posters](https://github.com/keya-joy19/projects/blob/main/Wanted%20Posters%20Genre%20Analysis.pdf)
 
