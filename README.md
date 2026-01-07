@@ -7,7 +7,7 @@
     - Y. He, S. Cao, S. Hashemkhani, Y. Liu, D. Vaz, K. Joy, N. Youngblood, R. Kubendran, M. P. Anantram, F. Xiong,
 “Artificial synapse with tunable dynamic range for neuromorphic computing with ion intercalated bilayer graphene,”
 <i>npj Unconv. Comput.</i> vol. 2, no. 28, Dec. 2025, doi: 10.1038/s44335-025-00042-4.
-- <b>Resarch Papers</b>
+- <b>Research Papers</b>
   - [Neuromorphic Computing](https://github.com/keya-joy19/projects/blob/main/NC%20Report%20KJKM.pdf)
   - [DFT Calculations and Applications](https://github.com/keya-joy19/projects/blob/main/DFT%20Calculations.pdf)
 
