@@ -25,6 +25,7 @@
   - [Insert](https://github.com/keya-joy19/projects/tree/main/Game%20of%20Life)
 
 <h2>Additional Projects</h2>
+
 - <b>LTspice</b>
   - [Audio Mixer Circuit](https://github.com/keya-joy19/projects/tree/main/Audio%20Mixer%20Circuit)
 - <b>Sentaurus</b>
