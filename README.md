@@ -1,7 +1,7 @@
 <h1>Keya Joy's Repository for Projects and Research <br/>
 
 <h2>Quantum Devices Research:</h2>
-
+[comment]:hh
 - <b>Publications</b>
   - [Bilayer Graphene Intercalation for Artifical Synapses](https://github.com/keya-joy19/projects/blob/main/Artificial%20Synapses%20Bilayer%20Graphene.pdf)
     - Y. He, S. Cao, S. Hashemkhani, Y. Liu, D. Vaz, K. Joy, N. Youngblood, R. Kubendran, M. P. Anantram, F. Xiong,
@@ -23,7 +23,7 @@
 - <b>Java</b>
   - [Huffman Node](https://github.com/keya-joy19/projects/tree/main/Game%20of%20Life)
   - [Insert](https://github.com/keya-joy19/projects/tree/main/Game%20of%20Life)
-# test
+
 <h2>Additional Projects</h2>
 - <b>LTspice</b>
   - [Audio Mixer Circuit](https://github.com/keya-joy19/projects/tree/main/Audio%20Mixer%20Circuit)
