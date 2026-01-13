@@ -1,7 +1,7 @@
 <h1>Keya Joy's Repository for Projects and Research <br/>
 
 <h2>Quantum Devices Research:</h2>
-[comment]:hh
+
 - <b>Publications</b>
   - [Bilayer Graphene Intercalation for Artifical Synapses](https://github.com/keya-joy19/projects/blob/main/Artificial%20Synapses%20Bilayer%20Graphene.pdf)
     - Y. He, S. Cao, S. Hashemkhani, Y. Liu, D. Vaz, K. Joy, N. Youngblood, R. Kubendran, M. P. Anantram, F. Xiong,
