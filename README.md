@@ -22,7 +22,6 @@
   - [Linear Programming](https://github.com/keya-joy19/projects/tree/main/Game%20of%20Life)
 - <b>Java</b>
   - [Huffman Node](https://github.com/keya-joy19/projects/tree/main/Game%20of%20Life)
-  - [Insert](https://github.com/keya-joy19/projects/tree/main/Game%20of%20Life)
 
 <h2>Additional Projects</h2>
 
