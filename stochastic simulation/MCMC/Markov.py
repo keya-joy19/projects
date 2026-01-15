@@ -1,3 +1,4 @@
+import statistics
 # Simulates a game until a player has no balls left
 # Returns 1 if player 1 lost, 0 otherwise
 def simulate2(n, k):
@@ -36,3 +37,23 @@ for i in k_sample:
   p = 0
 
 print("Probability p for various k: ", results)
+
+
+n = 3
+k = 3
+trials = 15000
+var1 = 0 # Calculated using sample std formula
+mean = 0
+
+results = [simulate(n, k) for i in range(trials)]
+mean = statistics.mean(results)
+
+for i in range(trials):
+  var1 += (results[i]-mean)**2
+
+var1 *= 1/(trials-1)
+print("Sample variance calculated manually: ", var1)
+var2 = statistics.variance(results)
+print("Estimated variance using built-in function: ", var2)
+stdev = statistics.stdev(results)
+print("Estimated standard deviation: ", stdev)
