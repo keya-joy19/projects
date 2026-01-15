@@ -2,10 +2,10 @@
 
 module regfile (ReadData1, ReadData2, WriteData, ReadRegister1, ReadRegister2, WriteRegister, RegWrite, clk, reset);
 					 
-  input logic	  [4:0]  ReadRegister1, ReadRegister2, WriteRegister;
-  input logic  [63:0]	 WriteData;
-	input logic 			   RegWrite, clk, reset;
-  output logic [63:0]	 ReadData1, ReadData2;
+  input logic	 [4:0]   ReadRegister1, ReadRegister2, WriteRegister;
+  input logic    [63:0]	 WriteData;
+  input logic 			 RegWrite, clk, reset;
+  output logic   [63:0]	 ReadData1, ReadData2;
 	logic        [31:0]  registers;
 	logic        [63:0]  regs [31:0];
 	logic        [31:0]  read_values [63:0];
