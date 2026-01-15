@@ -1,4 +1,6 @@
 import statistics
+import matplotlib.pyplot as plt
+import numpy as np
 # Simulates a game until a player has no balls left
 # Returns 1 if player 1 lost, 0 otherwise
 def simulate2(n, k):
@@ -57,3 +59,36 @@ var2 = statistics.variance(results)
 print("Estimated variance using built-in function: ", var2)
 stdev = statistics.stdev(results)
 print("Estimated standard deviation: ", stdev)
+
+
+p_a = np.array(results)
+plt.plot(k, p_a, 'bo')
+#plt.axis((0, 30, 0, 1))
+plt.xlabel('k, number of balls')
+plt.ylabel('1/p')
+plt.title('1/p vs. k')
+plt.show()
+
+# Power regression
+# Returns the best guess for a, b assuming y = b * x^a.
+# Set plot=False if you don't want to draw the plot.
+def powregression(x, y, plot=True):
+    log_x = np.log(x)
+    log_y = np.log(y)
+    a, b = np.polyfit(log_x,log_y,1)
+
+    if plot:
+        line = [a*x0 + b for x0 in log_x]
+        plt.scatter(log_x,log_y)
+        plt.plot(log_x,line)
+        plt.title("Power regression")
+        plt.show()
+
+    return a, np.exp(b)
+
+m=9
+k_sample = np.array(k_sample)
+k_sample = 2 + k_sample
+a, exp_b = powregression(k_sample[:m], results[:m])
+print(a)
+print(exp_b)
