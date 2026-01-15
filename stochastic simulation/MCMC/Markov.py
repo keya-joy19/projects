@@ -1,6 +1,7 @@
 import statistics
 import matplotlib.pyplot as plt
 import numpy as np
+import random
 # Simulates a game until a player has no balls left
 # Returns 1 if player 1 lost, 0 otherwise
 def simulate2(n, k):
@@ -92,3 +93,47 @@ k_sample = 2 + k_sample
 a, exp_b = powregression(k_sample[:m], results[:m])
 print(a)
 print(exp_b)
+
+
+// MCMC
+n = 4 # players
+k = 5 # balls
+balls = np.full(n, k)
+steps = 1000000
+burn_in = 100000
+avg_1 = 0 # balls player 1 has
+avg_max = 0 # max balls a player has
+avg_F = 0 # value of F
+
+def F():
+  product = 1
+  for i in range(n):
+    product *= balls[i]
+  return product
+
+def alpha(x, y):
+  return((balls[x] - 1)*(balls[y] + 1))/(balls[x]*balls[y])
+
+def propose():
+  x = random.randint(0, n - 1) # player 1
+  y = random.randint(0, n - 2) # player 2
+  r = random.random()
+  if(y >= x):
+    y += 1
+
+  if (r < alpha(x,y)):
+    balls[x] -= 1 # accept proposal
+    balls[y] += 1
+
+for i in range(burn_in):
+  propose()
+
+for i in range(steps):
+  propose()
+  avg_1 += balls[0]
+  avg_max += np.max(balls)
+  avg_F += F()
+
+print("Average number of balls player 1 has: ", (avg_1 / steps))
+print("Average max number of balls : ", (avg_max / steps))
+print("Average value of F: ", (avg_F / steps))
