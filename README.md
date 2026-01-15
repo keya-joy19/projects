@@ -18,7 +18,7 @@
   - [John Conway's Game of Life on an FPGA](https://github.com/keya-joy19/projects/tree/main/Game%20of%20Life)
 - <b>Python</b>
   - [Signal Processing](https://github.com/keya-joy19/projects/tree/main/Signal%20Processing)
-  - [Stochastic Simulation](https://github.com/keya-joy19/projects/tree/main/Game%20of%20Life)
+  - [Stochastic Simulation](https://github.com/keya-joy19/projects/tree/main/stochastic%20simulation)
   - [Linear Programming](https://github.com/keya-joy19/projects/tree/main/Game%20of%20Life)
 - <b>Java</b>
   - [Huffman Node](https://github.com/keya-joy19/projects/tree/main/Game%20of%20Life)
