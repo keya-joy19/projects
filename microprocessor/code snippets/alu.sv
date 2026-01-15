@@ -14,7 +14,7 @@ module alu (A, B, cntrl, result, negative, zero, overflow, carry_out, set_flags,
 	logic negative_temp, carry_out_temp, overflow_temp, zero_temp;
 	logic [3:0] muxout;
 	
-	parameter p = 0.05;
+	parameter p = 0.05; // gate delay
 	
 	not #p n1(sub[1], cntrl[2]);
 	and #p a1(sub[0], sub[1], cntrl[1], cntrl[0]);
@@ -63,45 +63,41 @@ module alu (A, B, cntrl, result, negative, zero, overflow, carry_out, set_flags,
 
 endmodule
 
-// old testbench from when I used a clock
-module alu_testbench();
 
-	logic		[63:0]	A, B;
-	logic		[2:0]		cntrl;
-	logic		[63:0]	result;
-	logic					negative, zero, overflow, carry_out, set_flags, clk;
+// Gates for ALU operations; I used boolean algebra to simplify the logic needed to fit the 
+//                           operations based on the control values, shown below
+module Bit (A, B, C, cntrl, r, c);
+	// cntrl	    Operation					Notes:
+	// 000:			result = B					value of overflow and carry_out unimportant
+	// 010:			result = A + B
+	// 011:			result = A - B
+	// 100:			result = bitwise A & B		value of overflow and carry_out unimportant
+	// 101:			result = bitwise A | B		value of overflow and carry_out unimportant
+	// 110:			result = bitwise A XOR B	value of overflow and carry_out unimportant
+
+	input  logic		         A, B, C;
+	input  logic		[2:0]		cntrl;
+	output logic		        	r, c; // result, carry of this bit
+	logic [11:0] out;
 	
-	alu dut(A, B, cntrl, result, negative, zero, overflow, carry_out, set_flags, clk);
-	// Set up a simulated clock.
-	parameter CLOCK_PERIOD=1000;
-	initial begin
-		clk <= 0;
-		forever #(CLOCK_PERIOD/2) clk <= ~clk; // Forever toggle the clock
-	end
-	// Set up the inputs to the design. Each line is a clock cycle.
-	initial begin
-															       @(posedge clk);
-		 A <= 64'h7; B <= 64'h1; set_flags <= 0;   repeat (2) @(posedge clk);	
-		 cntrl <= 000;             repeat (4) @(posedge clk);	
-		 cntrl <= 010;             repeat (4) @(posedge clk);	
-		 cntrl <= 011;             repeat (4) @(posedge clk);	
-		 cntrl <= 100;             repeat (4) @(posedge clk);
-		 cntrl <= 101;             repeat (4) @(posedge clk);	 
-		 cntrl <= 110;             repeat (4) @(posedge clk);	
-		 A <= 64'h7FFFFFFFFFFFFFFF; B <= 64'h1;   repeat (2) @(posedge clk);	
-		 cntrl <= 000;             repeat (4) @(posedge clk);	
-		 cntrl <= 010;             repeat (4) @(posedge clk);	
-		 cntrl <= 011;             repeat (4) @(posedge clk);	
-		 A <= 64'b0; B <= 64'b0;   repeat (2) @(posedge clk);
-		 cntrl <= 000;             repeat (4) @(posedge clk);	
-		 cntrl <= 010; set_flags <= 1;         repeat (4) @(posedge clk);	
-		 A <= 64'b1; B <= 64'b1;   repeat (2) @(posedge clk);
-		 cntrl <= 011;             repeat (4) @(posedge clk);
-		 set_flags <= 0;           repeat (4) @(posedge clk);
-		 A <= 64'h2;               repeat (4) @(posedge clk);
-		
-		 
-                                                    
-			$stop; 
-		end
+	parameter p = 0.05;
+
+	not #p c1(out[4], cntrl[1]); 
+	not #p c2(out[5], cntrl[2]);
+	
+	xor #p x0(out[0], A, B);
+	xor #p x1(out[1], cntrl[0], cntrl[1]);
+	and #p a0(out[2], out[0], out[1], cntrl[2]); // A xor B, C1 xor C0, C2
+	and #p a1(out[3], A, B, cntrl[2], out[4]); // A B nC1 C2
+	and #p a2(out[6], out[4], out[5], B); // nC2 nC1 B
+	xor #p x2(out[10], C, out[0]);
+	and #p a5(out[11], out[5], cntrl[1], out[10]); // nC2 C1 and (A X (B X C))
+	
+	or  #p R (r, out[2], out[3], out[6], out[11]); // result
+	
+	and #p a3(out[7], C, out[0]); // C and (A xor B)
+	and #p a4(out[8], A, B); // A and B
+	or  #p o0(out[9], out[7], out[8]); // AC or BC or AB
+	and #p ca (c, cntrl[1], out[5], out[9]); // carry (nC2, C1, AC+BC+AB)
+	
 endmodule
