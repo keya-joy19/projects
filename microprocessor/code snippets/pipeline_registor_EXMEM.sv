@@ -1,3 +1,4 @@
+// pipeline register module between execute and memory 
 module EXMEM(
     output logic [2:0]  WB_out,
     output logic [6:0]  M_out,
