@@ -19,9 +19,16 @@
 - <b>SystemVerilog</b>
   - [5-stage pipelined microprocessor](https://github.com/keya-joy19/projects/tree/main/microprocessor)
   - [John Conway's Game of Life on an FPGA](https://github.com/keya-joy19/projects/tree/main/Game%20of%20Life)
+- <b>C</b>
+  - [5-stage pipelined microprocessor](https://github.com/keya-joy19/projects/tree/main/microprocessor)
+- <b>Python</b>
+  - [5-stage pipelined microprocessor](https://github.com/keya-joy19/projects/tree/main/microprocessor)
+- <b>Java</b>
+  - [5-stage pipelined microprocessor](https://github.com/keya-joy19/projects/tree/main/microprocessor)
 
 <h2>Additional Projects</h2>
-
+- <b>Hardware/Software Integration and Prototyping</b>
+  - [Capstone: Haptics feedback system for NFL Blind Flag Football](https://github.com/keya-joy19/projects/tree/main/Audio%20Mixer%20Circuit)
 - <b>LTspice</b>
   - [Audio Mixer Circuit](https://github.com/keya-joy19/projects/tree/main/Audio%20Mixer%20Circuit)
 - <b>Creative Projects</b>
