@@ -12,7 +12,7 @@
   - [DFT Calculations and Applications](https://github.com/keya-joy19/projects/blob/main/DFT%20Calculations.pdf)
   - [Undergraduate Research Summary](https://github.com/keya-joy19/projects/blob/main/Keya%20Joy%20Research%20Report.pdf)
 - <b>Research Posters</b>
-  - [UW Undergraduate Research Symposium 2026](https://github.com/keya-joy19/projects/blob/main/Keya%20Joy%20Research%20Report.pdf)
+  - [UW Undergraduate Research Symposium 2026](https://github.com/keya-joy19/projects/blob/main/research_poster_keyaj.pdf)
 
 <h2>Software Development Projects</h2>
 
