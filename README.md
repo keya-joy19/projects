@@ -10,7 +10,7 @@
 - <b>Research Papers</b>
   - [Neuromorphic Computing](https://github.com/keya-joy19/projects/blob/main/NC%20Report%20KJKM.pdf)
   - [DFT Calculations and Applications](https://github.com/keya-joy19/projects/blob/main/DFT%20Calculations.pdf)
-  - [Undergraduate Research Summary](https://github.com/keya-joy19/projects/blob/main/Keya%Joy%Research%Report.pdf)
+  - [Undergraduate Research Summary](https://github.com/keya-joy19/projects/blob/main/Keya%20Joy%20Research%20Report.pdf)
 - <b>Research Posters</b>
   - [UW Undergraduate Research Symposium 2026](https://github.com/keya-joy19/projects/blob/main/Keya%20Joy%20Research%20Report.pdf)
 
