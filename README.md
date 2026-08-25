@@ -27,6 +27,7 @@
   - [5-stage pipelined microprocessor](https://github.com/keya-joy19/projects/tree/main/microprocessor)
 
 <h2>Additional Projects</h2>
+
 - <b>Hardware/Software Integration and Prototyping</b>
   - [Capstone: Haptics feedback system for NFL Blind Flag Football](https://github.com/keya-joy19/projects/tree/main/Audio%20Mixer%20Circuit)
 - <b>LTspice</b>
